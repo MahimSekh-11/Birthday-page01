@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="animated-title" id="animatedTitle"></div> 
+  <button type="button" id="btn">Form</button>
+  <div class="form-container">
+    
+      <form id="birthdayForm">
+        <div id="crossbar">
+            <img src="https://img.icons8.com/?size=48&id=T9nkeADgD3z6&format=png" alt="">
+        </div> 
+       
+  <label for="name">Enter Your Name:</label>
+            <br>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <br>
+          <label for="age">Enter Your Age:</label>
+          <br>
+          <input type="number" id="age" name="age" placeholder="Your Age" required>
+            <div>
+          <button type="button" id="cancelButton">Cancel</button>
+          <button type="submit" id="submitButton">Submit</button>
+            </div>
+        </form>
+        </div>
+      
+
+      <div class="balloon-container">
+          <div class="balloon balloon1"></div>
+          <div class="balloon balloon2"></div>
+          <div class="balloon balloon3"></div>
+          <div class="balloon balloon4"></div>
+          <div class="balloon balloon5"></div>
+      </div>
+      <div class="birthday-message" id="birthdayMessage">
+
+      <h1>Happy Birthday <span id="displayName"></span> on your <span id="displayAge"></span>th birthday. </h1> <h2> <b> May you embrace the journey ahead with hope and determination, knowing that greatness is within you. <br> I wish you all the best on your birthday and in the year ahead!</b> </h2>
+
+      </div>
+  <div id="movableDiv"></div>
+  <script src="script.js"></script>
+</body>
+</html>
